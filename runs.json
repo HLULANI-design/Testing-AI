@@ -1,0 +1,14 @@
+[
+  {
+    "id": "run_mock_001",
+    "model": "meta-llama/Llama-3.1-8B-Instruct",
+    "task": "text-generation",
+    "createdAt": "2025-09-01T10:00:00.000Z",
+    "status": "PASSED",
+    "owner": "MockUser",
+    "inputPreview": "Generate 5 mock sentences…",
+    "metrics": { "accuracy": 0.9, "latencyMs": 1500 },
+    "output": { "samples": ["mock one", "mock two"] },
+    "logs": ["Mock job started", "Mock job finished"]
+  }
+]
