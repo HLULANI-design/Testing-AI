@@ -1,0 +1,30 @@
+{
+  "name": "testing-ai",
+  "version": "1.0.0",
+  "homepage": "https://HLULANI-design.github.io/Testing-AI/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "chart.js": "^4.5.0",
+    "formik": "^2.4.6",
+    "react-bootstrap": "^2.10.10",
+    "react-chartjs-2": "^5.3.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "gh-pages": "^6.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^4.5.14"
+  }
+}
